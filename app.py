@@ -6,3 +6,7 @@ app = Flask(__name__)
 def hello_world():
     return "<p>Hello, change!</p>"
 
+@app.route("/new")
+def new():
+    return "new"
+
